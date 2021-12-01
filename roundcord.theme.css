@@ -1,0 +1,14 @@
+/**
+ * @name RoundCord
+ * @description An addon which makes discord round.
+ * @author dasussy
+ * @version 1.1.0
+*/
+
+/* Settings*/
+:root {
+	/* Border radius lol*/
+	--border-radius: 10px; /* Changes the border radius | Default: 10px  */
+}
+
+@import url(/src/theme.css);

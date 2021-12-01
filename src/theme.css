@@ -1,0 +1,330 @@
+.divider-3wNib3 {
+	border-color: var(--background-secondary) !important;
+}
+.container-3w7J-x {
+	height: 1% !important;
+}
+/* fix activity cards */
+.itemCard-v9viV7 {
+	border: none;
+}
+.sidebar-2K8pFh {
+	background: none;
+}
+.panels-j1Uci_ {
+	margin-top: 10px !important;
+}
+/*Seperate chatbox and chat*/
+.channelTextAreaDisabled-8rmlrp {
+	display: none;
+}
+.chatContent-a9vAAp {
+	background: none !important;
+}
+.messagesWrapper-1sRNjr {
+	background: #36393f;
+	border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+[class*="chatContent-"] [class*="form-"]::before {
+	margin-top: -17%;
+}
+[class*="channelTextArea-"] {
+	background: none;
+	border-radius: var(--border-radius);
+	margin-bottom: auto;
+}
+[class*="channelTextArea-"] [class*="scrollableContainer-"] {
+	padding: 4px 0 4px 0px;
+	border-radius: var(--border-radius);
+}
+[class*="channelTextArea-"] [class*="scrollableContainer-"][class*="hasConnectedBar-"] {
+	border-radius: 0px 0px 10px 10px;
+}
+.typing-2GQL18 {
+	bottom: 6px !important;
+}
+.searchResultsWrap-3-pOjs {
+	resize: horizontal;
+	min-width: 310px;
+	max-width: 418px;
+	direction: rtl;
+	border-radius: var(--border-radius);
+}
+[class*="typing-"] {
+	grid-row: 1;
+	font-size: 13px;
+	padding: 3px;
+	height: 14px;
+	left: 0;
+	color: var(--text-muted);
+	bottom: 70px !important;
+}
+
+.form-2fGMdU {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	top: 8px;
+	margin-top: 2px;
+	width: 100%;
+}
+.form-2fGMdU .cooldownWrapper-3joyFc {
+	bottom: 5px !important;
+	padding-top: 0;
+	margin-top: 0;
+	color: var(--text-muted) !important;
+}
+
+/* add rounded borders */
+.callContainer-36WRfH,
+.notice-3bPHh-,
+.threadSidebar-1o3BTy,
+.container-1D34oG,
+.container-1a3EgQ,
+.applicationStore-1pNvnv,
+.sidebar-2K8pFh,
+.pageWrapper-1PgVDX,
+.membersWrap-2h-GB4,
+.panels-j1Uci_,
+.container-3w7J-x,
+.privateChannels-1nO12o {
+	border-radius: var(--border-radius) !important;
+}
+.container-3w7J-x::after {
+	background-color: #36393f;
+}
+.container-3w7J-x {
+	height: 90%;
+}
+/* add margins around edges */
+.container-1D34oG,
+.container-1a3EgQ,
+.applicationStore-1pNvnv,
+.chat-3bRxxu,
+.pageWrapper-1PgVDX {
+	margin: 10px;
+}
+
+.threadSidebar-1o3BTy {
+	margin: 10px 10px 10px 0px;
+}
+
+.notice-3bPHh- {
+	margin: 10px 10px 0px 0px;
+}
+
+.notice-3bPHh-.noticeWrapper-8z511t {
+	margin: 20px 10px 0px 10px;
+}
+
+.sidebar-2K8pFh {
+	margin: 10px 0px 10px 0px;
+}
+
+.wrapper-3NnKdC {
+	margin: 10px 0px 0px 0px;
+}
+
+/* remove chat background */
+.chat-3bRxxu {
+	background: none !important;
+}
+
+/* remove title bar background */
+.title-3qD0b- {
+	background: none !important;
+	width: auto;
+}
+
+/* add chat background and make rounded */
+.chatContent-a9vAAp {
+	background-color: #36393f;
+	border-radius: 0px 0px var(--border-radius) var(--border-radius);
+}
+
+/* add background to title bar and make rounded */
+.chatContent-a9vAAp::before {
+	content: "";
+	position: relative;
+	margin-top: -48px;
+	background: var(--background-primary);
+	width: 100%;
+	height: 48px;
+	border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+
+/* put thread join/archive banner on top */
+.chatHeaderBar-4vZS1x {
+	z-index: 1;
+}
+
+/* put toolbar on top */
+.toolbar-1t6TWx {
+	position: relative;
+	z-index: 1;
+	margin-left: 8px;
+}
+
+.iconWrapper-2OrFZ1[aria-label="Threads"] {
+	width: 36.1px;
+}
+
+.iconWrapper-2OrFZ1[aria-label="Threads"] .icon-22AiRD {
+	margin-left: auto;
+}
+
+/* hide toolbar icons */
+.iconWrapper-2OrFZ1[aria-label="Help"] {
+	display: none;
+}
+
+.iconWrapper-2OrFZ1[aria-label*="Member List"] {
+	order: 1;
+}
+
+/* position search */
+.search-36MZv- {
+	order: 1;
+	margin-left: 36px;
+	margin-right: 8px;
+}
+
+.searchBar-3dMhjb {
+	width: 208px !important;
+	padding: 0px 2px;
+}
+
+/* position members list and add margins/rounded */
+.membersWrap-2h-GB4 {
+	position: relative;
+	height: 100%;
+}
+
+.members-1998pB {
+	border-radius: 0px 0px var(--border-radius) var(--border-radius) !important;
+}
+
+.container-2wlB3z {
+	margin-left: 10px;
+}
+
+.container-2wlB3z::before {
+	content: "";
+	position: relative;
+	margin-top: -48px;
+	background: var(--background-primary);
+	height: 48px;
+	border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+
+/* create space for search bar */
+.members-1998pB div h2:first-of-type {
+	margin-top: -10px;
+}
+
+/* fix search results */
+/* fix search results */
+.searchResultsWrap-3-pOjs {
+	width: 470px;
+	margin-left: 10px;
+	background-color: var(--background-secondary);
+}
+
+.searchResultsWrap-3-pOjs::before {
+	margin-top: -48px;
+	z-index: 1;
+	content: "";
+	position: fixed;
+	background-color: var(--background-primary);
+	width: 470px;
+	height: 48px;
+	border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+
+.channelName-1JRO3C {
+	background: none;
+}
+
+.message-2qnXI6 {
+	margin: 1px;
+	border-radius: var(--border-radius);
+}
+
+/* only show scrollbar when hover */
+
+/* position window controls bar */
+.typeWindows-1za-n7 {
+	position: absolute;
+	height: 20px;
+	width: 100%;
+	margin: 0;
+	background: none;
+}
+
+/* fix padding */
+.typeWindows-1za-n7 + .app-1q1i1E .container-2lgZY8 {
+	padding-top: 10px;
+}
+
+.typeWindows-1za-n7 + .app-1q1i1E .notice-3bPHh-.noticeWrapper-8z511t + .layers-3iHuyZ .container-2lgZY8 {
+	padding-top: 0px;
+}
+
+.scroller-1Bvpku {
+	padding: 0;
+}
+
+.wordmarkWindows-1v0lYD {
+	padding: 2px 9px;
+}
+
+/* create window control buttons */
+.typeWindows-1za-n7 .winButton-iRh8-Z > svg {
+	display: none;
+}
+
+.typeWindows-1za-n7 .winButton-iRh8-Z {
+	background: none;
+	top: 0;
+	width: 12px;
+	height: 12px;
+	margin: 4px 12px 0px 0px;
+}
+
+.typeWindows-1za-n7 .winButton-iRh8-Z:nth-child(2) {
+	margin-right: 12px;
+}
+
+.typeWindows-1za-n7 .winButton-iRh8-Z::after {
+	content: "";
+	height: 12px;
+	width: 12px;
+	border-radius: 12px;
+	transition: 0.1s;
+}
+
+.typeWindows-1za-n7 .winButtonClose-1HsbF-::after {
+	background-color: hsl(0, 50%, 50%) !important;
+}
+
+.typeWindows-1za-n7 .winButtonMinMax-PBQ2gm:nth-child(3)::after {
+	background-color: hsl(120, 50%, 50%) !important;
+}
+
+.typeWindows-1za-n7 .winButtonMinMax-PBQ2gm:nth-child(4)::after {
+	background-color: hsl(50, 50%, 50%) !important;
+}
+
+.typeWindows-1za-n7 > div:hover::after {
+	transform: scale(1.1);
+}
+
+.container-2wlB3z {
+	border-radius: var(--border-radius);
+}
+/* other */
