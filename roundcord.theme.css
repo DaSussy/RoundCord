@@ -4,11 +4,9 @@
  * @author dasussy
  * @version 1.1.0
 */
-
+@import url(https://dasussy.github.io/RoundCord/src/theme.css);
 /* Settings*/
 :root {
 	/* Border radius lol*/
 	--border-radius: 10px; /* Changes the border radius | Default: 10px  */
 }
-
-@import url(https://dasussy.github.io/RoundCord/src/theme.css);
