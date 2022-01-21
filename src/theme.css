@@ -79,6 +79,7 @@
 }
 */
 /* add rounded borders */
+
 .callContainer-HtHELf,
 .notice-2HEN-u,
 .threadSidebar-1o3BTy,
@@ -90,21 +91,25 @@
 .membersWrap-3NUR2t,
 .panels-3wFtMD,
 .container-1NXEtd,
-.privateChannels-oVe7HL {
+.privateChannels-oVe7HL,
+.sidebarRegionScroller-FXiQOh,
+.app-3xd6d0,
+.contentRegion-3HkfJJ {
 	border-radius: var(--border-radius) !important;
 }
 .container-1NXEtd::after {
 	background-color: var(--background-primary);
+;
 }
 .container-1NXEtd {
 	height: 90%;
 }
-/* add margins around edges */
 .container-2cd8Mz,
 .container-1a3EgQ,
 .applicationStore-2nk7Lo,
 .chat-2ZfjoI,
-.pageWrapper-2PwDoS {
+.pageWrapper-2PwDoS,
+.sidebarRegionScroller-FXiQOh {
 	margin: 10px;
 }
 
@@ -280,46 +285,6 @@
 	padding: 2px 9px;
 }
 
-/* create window control buttons */
-.typeWindows-2-g3UY .winButton-3UMjdg > svg {
-	display: none;
-}
-
-.typeWindows-2-g3UY .winButton-3UMjdg {
-	background: none;
-	top: 0;
-	width: 12px;
-	height: 12px;
-	margin: 4px 12px 0px 0px;
-}
-
-.typeWindows-2-g3UY .winButton-3UMjdg:nth-child(2) {
-	margin-right: 12px;
-}
-
-.typeWindows-2-g3UY .winButton-3UMjdg::after {
-	content: "";
-	height: 12px;
-	width: 12px;
-	border-radius: 12px;
-	transition: 0.1s;
-}
-
-.typeWindows-2-g3UY .winButtonClose-3Q8ZH5::after {
-	background-color: hsl(0, 50%, 50%) !important;
-}
-
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3)::after {
-	background-color: hsl(120, 50%, 50%) !important;
-}
-
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4)::after {
-	background-color: hsl(50, 50%, 50%) !important;
-}
-
-.typeWindows-2-g3UY > div:hover::after {
-	transform: scale(1.1);
-}
 
 .container-2o3qEW {
 	border-radius: var(--border-radius);
