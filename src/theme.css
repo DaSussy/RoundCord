@@ -94,7 +94,7 @@
 	border-radius: var(--border-radius) !important;
 }
 .container-1NXEtd::after {
-	background-color: #36393f;
+	background-color: var(--background-primary);
 }
 .container-1NXEtd {
 	height: 90%;
@@ -141,7 +141,7 @@
 
 /* add chat background and make rounded */
 .chatContent-3KubbW {
-	background-color: #36393f;
+	background-color: var(--background-primary);
 	border-radius: 0px 0px var(--border-radius) var(--border-radius);
 }
 
