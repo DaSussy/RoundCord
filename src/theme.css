@@ -260,31 +260,10 @@
 /* only show scrollbar when hover */
 
 /* position window controls bar */
-.typeWindows-2-g3UY {
-	position: absolute;
-	height: 20px;
-	width: 100%;
-	margin: 0;
-	background: none;
-}
-
-/* fix padding */
-.typeWindows-2-g3UY + .app-3xd6d0 .container-1eFtFS {
-	padding-top: 10px;
-}
-
-.typeWindows-2-g3UY + .app-3xd6d0 .notice-2HEN-u.noticeWrapper-8z511t + .layers-OrUESM .container-1eFtFS {
-	padding-top: 0px;
-}
 
 .scroller-3X7KbA {
 	padding: 0;
 }
-
-.wordmarkWindows-2dq6rw {
-	padding: 2px 9px;
-}
-
 
 .container-2o3qEW {
 	border-radius: var(--border-radius);
