@@ -2,7 +2,7 @@
 A WIP Discord theme which makes discord more round
 
 # Preview
-<img src="https://cdn.discordapp.com/attachments/913051935224004608/915651444609257532/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/825718324997652520/986007373569212436/unknown.png">
 
 # Installation
 ### Custom CSS Method
